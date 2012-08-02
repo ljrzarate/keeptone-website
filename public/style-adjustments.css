@@ -1,0 +1,40 @@
+/*
+=============================================== A. Main Background Pattern ===============================================
+*/
+/* optional patterns: background.png, background-pattern2.png, background-pattern3.png, background-pattern4.png, background-pattern4.png, background-pattern5.png, background-pattern6.png */
+body {background-image: url(images/background.png);}
+
+
+/*
+=============================================== B. Main Highlight Colors - Blue ===============================================
+*/
+a, body h1, h1 a:hover , h2 a:hover , h3 a:hover , h4 a:hover , h5 a:hover , h6 a:hover, .button-colored, .caption-padding .button-colored,
+body.dark h1 a:hover , body.dark h2 a:hover , body.dark h3 a:hover , body.dark h4 a:hover , body.dark h5 a:hover , body.dark h6 a:hover,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, h1 span a, h2 span a, h3 span a, h4 span a, h5 span a, h6 span a,
+.sf-menu li.current a, .sf-menu li.sfHover li.current a, .sf-menu li.sfHover li.sfHover li.current a, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active, .sf-menu li a:hover,
+.sf-menu li.sfHover li.sfHover li.sfHover li.current a, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.current a, 
+.sf-menu li.sfHover a, .sf-menu li.sfHover li a:hover, .sf-menu li.sfHover li.sfHover a, .sf-menu li.sfHover li.sfHover li a:hover, .sf-menu li.sfHover li.sfHover li.sfHover a,
+.sf-menu li.sfHover li.sfHover li.sfHover li a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a:hover 
+{color:#4ab1d3;} /* Default - #4ab1d3 */
+.button-colored, .caption-padding .button-colored, a.button-colored:hover, #contactform .button-colored:hover 
+{border-color:#4ab1d3; background-color:#4ab1d3; }  /* Default - #4ab1d3 */
+
+
+/*
+=============================================== C. Secondary Highlight Color - Orange Text ===============================================
+*/
+#topannounce, .button, .caption-padding .button, #topannounce a { color:#996633;} /* Default - #996633 */
+
+/*
+=============================================== D. Secondary Highlight Color - Orange Background ===============================================
+*/
+#topannounce, .button, .caption-padding .button, #topannounce a { background-color:#fec64c;} /* Default - #fec64c */
+
+
+/*
+=============================================== E. Main Width Adjustments ===============================================
+*/
+#topannounce #announce-container, #reset-announcement-container, #footer-container {width:825px; } /* Width of Top Announcement Bar and Footer */
+#content { width:532px; } /* Add 32px of padding to the width so default is actually 500 = 532 */
+aside {width:292px;} /* Add 32px of padding to the width so default is actually 260 = 292 */
+#main, #main-base  {width:890px;} /* Container for the two Colums - Add 66px to width of aside and #content.  532 + 292 + 66 = 890 */

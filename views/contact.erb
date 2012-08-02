@@ -1,0 +1,110 @@
+			<div id="content">
+				<div id="content-top">
+					<div id="content-top-right"></div>
+				</div><!-- close #content-top -->
+				
+				<div id="content-container-bg-left">
+					<div id="content-container-bg-right">
+						<div id="content-container">						
+
+						<div id="map_div"></div><!-- map inserted with 
+						
+						<div class="content-padding"> 
+							<h3>Visit me at the office!</h3>
+						</div><!-- close .content-padding -->
+						<div class="content-padding"> 	
+								<strong>KEEPTONE S.A.S</strong><br/>
+								Calle 75A No. 71 - 46, Barranquilla - Atl&aacute;ntico. <br>
+								Colombia.
+						</div><!-- close .content-padding -->
+						
+						<hr />
+
+							
+
+						<div class="content-padding"> 
+
+							<% if !@name.nil? %>
+						   <div>
+							<p class="success">Email enviado Exitosamente!</p>
+			            	<p class="success2">Gracias <strong><%= @name %></strong> estaremos en contacto contigo pronto!</p>
+							</div>
+							<% end %>
+							<% if !@errors.nil? %>
+								<div>
+
+                                <ul>
+								<% @errors.each do |p| %>  
+								<li><p class="error"> <%= p %> </p></li>
+				            	<% end %>
+				                </ul>
+				            	</div>
+							<% end %>
+
+							<h3>Dejenos su mensaje!</h3>
+							<form method="post" action="" id="contactform">
+								<div>
+								    <label for="name">Nombre:<span class="required">*</span></label>
+									<input type="text" size="28" name="contactname" id="contactname"  class="required"  min="3"/>
+								</div>
+
+								<div>
+									<label for="email">Email:<span class="required">*</span></label>
+									<input type="text" size="28" name="email" id="email" value="" class="required email"/>
+								</div>
+
+								<div>
+									<label for="whatsapp">Whatsapp o BBpin:</label>
+									<input type="text" size="28" name="whatsapp" id="whatsapp"/>
+								</div>
+
+								<div>
+									<label for="message">Message:<span class="required">*</span></label>
+									<textarea rows="8" cols="38" name="message" id="message" ></textarea>
+								</div>
+							    <input type="submit" value="Enviar Mensaje" name="submit" class="button-colored" />
+							</form>
+							<!--<iframe src="form.erb" width="100%" height="395" frameborder="0" scrolling="no"></iframe> -->
+						</div><!-- close .content-padding -->
+						
+						
+						<hr />
+						
+						<div class="content-padding"> 
+							<div class="alignleft">
+								<h2>Siganos en</h2>
+							</div><!-- close .alignleft -->
+							<div class="alignright">
+								<ul class="social-networking">
+									<li class="twitter"><a href="https://twitter.com/keeptone">Twitter</a></li>
+									<li class="facebook"><a href="https://www.facebook.com/pages/Keeptone-Colombia/103396496426248">Facebook</a></li>
+									<!--<li class="dribble"><a href="#">Dribble</a></li>-->
+									<!--<li class="youtube"><a href="#">Youtube</a></li>
+									<!--li class="vimeo"><a href="#">Vimeo</a></li-->
+									<li class="skype"><a href="callto://keeptone">Skype</a></li>
+									<li class="email"><a href="mailto:servicioalcliente@keeptone.com">E-mail</a></li>
+								</ul>
+							</div><!-- close .alignright -->
+							<div class="clearfix"></div>
+						</div><!-- close .content-padding -->
+						
+						
+						
+						
+						<div class="clearfix"></div>
+						</div><!-- close #content-container -->
+					</div><!-- close #content-container-bg-right" -->
+				</div><!-- close #content-container-bg-left -->
+				
+				
+				
+				<div id="content-bottom">
+					<div id="content-bottom-right"></div>
+				</div><!-- close #content-bottom -->
+			</div><!-- close #content -->
+			
+			<div class="clearfix"></div>
+			<div id="main-base"></div><!-- close #main-base -->
+		</div><!-- close #main -->
+
+
